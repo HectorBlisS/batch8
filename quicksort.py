@@ -12,6 +12,7 @@ def sort(array):
                 igual.append(x)
             if x > pivot:
                 mayor.append(x)
+        print(menor,igual,mayor)
         
         return sort(menor)+igual+sort(mayor)  # Recursividad!
     else:  
